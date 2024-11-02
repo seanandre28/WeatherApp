@@ -1,0 +1,108 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: linear-gradient(90deg, #a1c4fd 50%, #c2e9fb 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+.weather-app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.weather-app h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather-app p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.weather-app input {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #764ba2;
+  border-radius: 5px;
+}
+
+.weather-app button {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.weather-app button:hover {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.points-bar {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.points-bar #points {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f43b47;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  height: 100%;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.badges {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badges .badge {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
